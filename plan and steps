@@ -1,0 +1,5 @@
+Suggested Order for Your Project
+Create the menu data file (database)
+Build the customer-facing menu display (frontend)
+Set up order processing (backend/API)
+Build the chef dashboard (frontend)
