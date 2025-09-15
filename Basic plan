@@ -1,0 +1,44 @@
+# Hotel Table Digital Menu & Ordering System
+
+## Overview
+
+This project is a digital ordering system for hotel tables. Each table will have a display showing the menu, prices, and order options. Orders placed by customers are sent directly to the kitchen/chef dashboard, and the bill is calculated and shown on the table display.
+
+## Features
+
+- Table display with interactive digital menu and prices
+- Customers can place orders from their table
+- Chef receives orders and updates status (“Cooking”, “Ready”)
+- Order status and bill displayed on the table
+- Bill calculation and payment option
+
+## Components
+
+- **frontend/table-display-app/**: App for hotel table displays
+- **frontend/chef-dashboard/**: Kitchen/chef order management app
+- **backend/**: Server and APIs for handling orders, menu, billing
+- **database/**: Data models and schema
+
+## Folder Structure
+
+```
+/
+|-- frontend/
+|   |-- table-display-app/
+|   |-- chef-dashboard/
+|-- backend/
+|-- database/
+|-- README.md
+```
+
+## Getting Started
+
+1. **Design the menu data model** (items, prices).
+2. **Build the table display app** for customers.
+3. **Build the chef dashboard** for kitchen staff.
+4. **Create backend APIs** for order and billing logic.
+5. **Connect frontend and backend** for a complete workflow.
+
+---
+
+Feel free to ask for starter code, database schema, or specific component templates!
